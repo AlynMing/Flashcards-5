@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285E2E512408B61C00D1EAFC /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E2E502408B61C00D1EAFC /* CreationViewController.swift */; };
 		28DD08F523F71D1100A0BB08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD08F423F71D1100A0BB08 /* AppDelegate.swift */; };
 		28DD08F723F71D1100A0BB08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD08F623F71D1100A0BB08 /* SceneDelegate.swift */; };
 		28DD08F923F71D1100A0BB08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD08F823F71D1100A0BB08 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285E2E502408B61C00D1EAFC /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 		28DD08F123F71D1100A0BB08 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DD08F423F71D1100A0BB08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DD08F623F71D1100A0BB08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				28DD08F623F71D1100A0BB08 /* SceneDelegate.swift */,
 				28DD08F823F71D1100A0BB08 /* ViewController.swift */,
 				28DD08FA23F71D1100A0BB08 /* Main.storyboard */,
+				285E2E502408B61C00D1EAFC /* CreationViewController.swift */,
 				28DD08FD23F71D1300A0BB08 /* Assets.xcassets */,
 				28DD08FF23F71D1300A0BB08 /* LaunchScreen.storyboard */,
 				28DD090223F71D1300A0BB08 /* Info.plist */,
@@ -262,6 +265,7 @@
 				28DD08F923F71D1100A0BB08 /* ViewController.swift in Sources */,
 				28DD08F523F71D1100A0BB08 /* AppDelegate.swift in Sources */,
 				28DD08F723F71D1100A0BB08 /* SceneDelegate.swift in Sources */,
+				285E2E512408B61C00D1EAFC /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

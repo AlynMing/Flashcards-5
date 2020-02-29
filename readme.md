@@ -5,7 +5,7 @@ This app is a flashcard app that displays a question and reveals the answer when
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/IwqRif2Vy4.gif" width=200><br>
+<img src=http://g.recordit.co/IwqRif2Vy4.gif width=200><br>
 
 ## Required
 - [x] User can open the creation screen

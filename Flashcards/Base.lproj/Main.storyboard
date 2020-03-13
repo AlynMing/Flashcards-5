@@ -42,6 +42,22 @@
                                     <outletCollection property="gestureRecognizers" destination="Vnv-Qc-4bp" appends="YES" id="uPL-2k-FqI"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KA-2Y-jwV">
+                                <rect key="frame" x="332" y="767" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="033-dB-l9T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xG-p7-WJI">
+                                <rect key="frame" x="59" y="767" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YYM-dK-U6p"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXI-xI-wrX">
                                 <rect key="frame" x="180" y="750" width="55" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +74,8 @@
                     <connections>
                         <outlet property="backlabel" destination="HZb-kg-VDX" id="Kg5-BT-tCE"/>
                         <outlet property="frontlabel" destination="MWb-eU-d7z" id="wpl-ge-k9P"/>
+                        <outlet property="nextButton" destination="8KA-2Y-jwV" id="nBG-ie-6IX"/>
+                        <outlet property="prevButton" destination="2xG-p7-WJI" id="qom-D6-X3g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

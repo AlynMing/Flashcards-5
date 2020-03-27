@@ -1,3 +1,23 @@
+## Lab 4
+
+### App Description
+This is a flashcard app that displays questions and answers which are revealed when the user taps the card. Users can add new flashcards and revisit each of the cards they make.
+
+### App Walk-though
+<img src="YOUR_GIF_URL_HERE" width=200><br>
+
+## Required
+- [x] User should see the app icon 
+- [x] User should see a splash screen
+- [x] User should see an flip animation when revealing the answer
+- [x] User should see a slide animation when going to the next flashcard
+- [x] User should see a slide animation when going to the previous flashcard
+- [x] Push code to GitHub
+## Optional
+- [ ] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
+- [ ] User should see all views properly layout when using the app on a phone of different sizes
+- [ ] Correct answer in multiple choice should be random
+
 ## Lab 3
 
 ### App Description
